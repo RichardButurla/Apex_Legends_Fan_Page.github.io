@@ -1,0 +1,149 @@
+
+body{
+    background-image: url('apexBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 18, 1, 0.733);
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+     
+}
+h1{
+ position: absolute;
+left: 50%;
+top: 50px;
+color: aliceblue;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h2{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fanPageTitle{
+    position: absolute;
+    left: 24%;
+    top:24%;
+    font-size: 40px;
+}
+
+ ul{
+     margin: 0px;
+     padding-left: 0px;
+     padding-top: 0px;
+    list-style-type: none;
+     width: 500px;
+     height: 480px;
+    background-color: #f32308;
+}
+li a{
+    display: block;
+    color: rgb(250, 250, 250);
+    padding: 53px 16px;
+    text-decoration: none;
+    height: 14px;
+}
+li a:hover{
+    background-color: rgb(255, 255, 255);
+  color: rgb(226, 130, 3);
+}
+li a.active{
+    background-color: #04AA6D;
+    color: rgb(252, 36, 8);
+}
+#apexBanner{
+    padding-top: 0px;
+    width:1600px;
+    height: 500px;
+    float: right;
+    border-image: auto;
+}
+#homeBanner{
+  
+    width: 1920px;
+    height: 200px;
+}
+.apexBannerText{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    font-size: 25px;
+    color: aliceblue;
+}
+#link-to-ea{
+    color: rgb(208, 255, 0);
+}
+h3{
+    color: white;
+    padding-left: 10px;
+    font-size: 25px;
+}
+form{
+    color: white;
+    padding-left: 10px;
+   
+}
+h4{
+    padding-left: 45%;
+    border-bottom: 5px solid rgb(212, 207, 207);
+
+    color: white;
+}
+.techniqueHeader{
+    position: absolute;
+    left: 50%;
+    top:24%;
+    font-size: 40px;
+    
+}
+p2{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    
+}
+.movementParagraph{
+    position: absolute;
+    left: 30%;
+    top:35%;
+}
+
+#techniqueHeaderLeft{  
+    padding-left: 130px;
+    padding-top: 20%;
+    font-size: 40px;
+
+}
+.techniqueTextLeft{
+    padding-left: 1%;
+    font-size: 30px;
+    float: left;
+    
+}
+#techniqueHeaderRight{
+    float: left;
+    padding-left: 75%;
+    font-size: 40px;
+}
+.techniqueTextRight{
+    float: right;
+    font-size: 30px;
+    padding-right: 1%;
+    padding-top: 2%;
+}
+div{
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+div2{
+padding-left: 20px;
+}
+h5{
+    padding-left: 45%;
+    padding-top: 20%;
+    border-bottom: 5px solid rgb(212, 207, 207);
+
+    color: white;
+}
