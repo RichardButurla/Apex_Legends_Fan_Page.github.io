@@ -44,7 +44,7 @@ li a{
     text-decoration: none;
     height: 14px;
 }
-li a:hover{
+li:hover{
     background-color: rgb(255, 255, 255);
   color: rgb(226, 130, 3);
 }
@@ -111,7 +111,7 @@ p2{
 
 #techniqueHeaderLeft{  
     padding-left: 130px;
-    padding-top: 20%;
+    padding-top: 0px;
     font-size: 40px;
 
 }
@@ -146,4 +146,21 @@ h5{
     border-bottom: 5px solid rgb(212, 207, 207);
 
     color: white;
+}
+#gallery-Photos-Left
+{
+    float: left;
+    padding-left: 1%;
+    width: 27%;
+}
+#gallery-Photos-Middle
+{
+    padding-left: 9%;
+    width: 27%;
+}
+#gallery-Photos-Right
+{
+    float: right;
+    padding-right: 1%;
+    width: 27%;
 }
