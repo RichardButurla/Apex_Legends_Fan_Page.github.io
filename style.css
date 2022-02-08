@@ -173,7 +173,6 @@ h5{
 
 .flexbox-banner-container{
     display: flex;
-    background-color: #d0f308;
     justify-content: center;
     min-width: 100%;
     height: 200px;
@@ -190,10 +189,45 @@ h5{
 
 .flexbox-navBar-container{
       display: flex;
-      background-color: #d0f308;
-      max-width: 500px;
+      max-width: 1980px;
   }
-  .flexbox-navBar-item{
-   /* border: 3px solid black;
-   */
-  }
+    .flexbox-text-item{
+        margin-top: 200px;
+        margin-left: 300px;
+        max-height: 100px;
+    }
+    .socials-header{
+        font-size: 45px;
+    }
+
+.flexbox-scocials-images-container{
+    display: flex;
+   
+    justify-content:space-between;
+    flex-wrap: wrap;
+    max-height: 1300px;
+}
+    .flexbox-twitter-image-item{
+      /*
+        border: 3px solid black;
+        */
+        margin-left: 140px;
+        
+    }
+
+    .flexbox-instagram-image-item{
+       
+       margin-right: 100px;
+    }
+    .flexbox-facebook-image-item{
+      
+        margin-left: 840px;
+    }
+    .flexbox-apex-review-item{
+       
+        margin-top: -500px;
+        margin-left: 140px;
+    }
+    #apex-review-pic{
+        width: 600px;
+    }
